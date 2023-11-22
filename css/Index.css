@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left {
+  flex: 2;
+  background-image: linear-gradient(to right, rgb(62, 166, 84, white));
+}
+
+.right {
+  flex: 1;
+  background-image: linear-gradient(to right, rgb(62, 166, 84, white));
+}
+
+body {
+  background-image: linear-gradient(to right, #90cb9f, white);
+}
+
+.imgProducts {
+  text-align: center;
+  padding: 50px;
+  width: 300px;
+}
+
+*/ test by side a side a img and text */ 
+
+.imgsText {
+  text-align: justify;
+}
+
+.test {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  max-width: 25%;
+  max-height: 15%;
+  float: left;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20%;
+  float: left;
+}
+
+.p {
+  background-color: aliceblue;
+  border: 2.5px solid transparent;
+  border-radius: 25px;
+}
+
+.pop {
+  background-color: aliceblue;
+  border: 2.5px solid transparent;
+  border-radius: 25px;
+}
